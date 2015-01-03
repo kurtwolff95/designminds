@@ -20,7 +20,7 @@
 			</p><!--About Paragraph-->
 			<p>
 				<h2 class="boxheading">
-					News from the crew
+					News from the crew drew brew shoe flu
 				</h2>
 				<ul>
 					<?php
