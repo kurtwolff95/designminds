@@ -24,7 +24,7 @@
 				</h2>
 				<ul>
 					<?php
-					$args = array( 'posts_per_page' => 5, 'category' => 3 );
+					$args = array( 'posts_per_page' => 5, 'category' => 2 );
 					$newsposts = get_posts( $args );
 					foreach ( $newsposts as $post ) : setup_postdata( $post ); 
 					?>
@@ -58,7 +58,7 @@
 				</h2>
 				<ul>
 					<?php
-					$args = array( 'posts_per_page' => 5, 'category' => 2 );
+					$args = array( 'posts_per_page' => 5, 'category' => 3 );
 					$portfolioposts = get_posts( $args );
 					foreach ( $portfolioposts as $post ) : setup_postdata( $post ); 
 					?>
