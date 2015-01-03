@@ -1,0 +1,22 @@
+/*
+Theme Name: Design Minds
+Theme URI:
+Version: 0.0.1
+Description: Design Minds company theme
+Date: 03/01/15
+Author: Design Minds
+Author URI: http://designminds.com.au
+GitHub Theme URI: https://github.com/kurtwolff95/designminds
+GitHub Branch: master
+Tags: design, minds, we, make, websites, for, small, business
+*/
+/*Font Styling*/
+/*@import url('styles/fonts.css');*/
+/*Normalize Styling*/
+@import url('styles/normalize.css');
+/* General Styling*/
+@import url('styles/style.css');
+/*Mobile Styling*/
+@import url('styles/mobile.css');
+/*Responsive Styling*/
+/*@import url('styles/response.css');*/

@@ -1,0 +1,174 @@
+/***Viewport settings declaration***/
+@viewport 
+{
+	width: device-width;
+	maximum-scale: 1.5;
+	initial-scale: 1;
+}
+/*Shitty MS*/
+@-ms-viewport
+{
+ 	width: device-width;
+}
+iframe 
+{
+	margin: 0 auto;
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.aspect-ratio
+{
+  position: relative;
+  width: 100%;
+  height: 0;
+  /*Purely only compatible with 16:9 Ratio content (Almost all YouTube clips), this is not a problem; we force viewers to use 16:9*/
+  padding-bottom: 56.25%;
+}
+.aspect-ratio iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0; top: 0;
+}
+/***End of Viewport settings declaration***/
+
+/***Main structural elements***/
+#wrapper
+{
+	line-height: 1.2;
+}
+#header
+{
+	display: none;
+}
+#main
+{
+	width: 90%;
+	max-width: 1300px;
+	margin: 0.5em auto 0em auto;
+  	display: -webkit-flex;     /* NEW - Chrome */
+  	display: flex;  
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+#footer
+{
+
+}
+/***End of Main structural elements***/
+
+/***Index page unique elements***/
+#column1, #column2, #column3
+{
+	margin: -0.5em 0.5em;
+}
+#column1
+{
+	flex: 1;
+	-webkit-flex: 1;
+	min-width: 200px;
+}
+#column2
+{
+	flex: 1;
+	-webkit-flex: 1;
+	min-width: 200px;
+}
+#column3
+{
+	flex: 0.5;
+	-webkit-flex: 0.5;
+	min-width: 200px;
+}
+/*Watch out for this overriding unecessary items*/
+.content-box 
+{
+	margin: 1em 0;
+	padding: 0.5em;
+	border: solid 1px rgb(221, 221, 221);
+}
+.aboutbox
+{
+
+}
+.aboutp
+{
+}
+.boxheading
+{
+	padding-left: 1em;
+	clear: both;
+}
+.mapbox
+{
+
+}
+.mapframe
+{
+	width: 100%;
+	height: auto;
+}
+.feedbackbox
+{
+
+}
+.bodybox
+{
+}
+.formbox
+{
+
+}
+.portfoliobox
+{
+
+}
+.indexportfolioli
+{
+	border: solid 1px rgb(221, 221, 221);
+	margin: 0.5em 0;
+}
+#logocontainer 
+{
+	text-align: center;
+}
+.logo
+{
+	width: 100%;
+}
+.aboutimage
+{
+	width: 25%;
+	margin: 0.5em;
+}
+/*Watch out for this overriding unecessary items*/
+.attachment-post-thumbnail
+{
+	width: 100%;
+	height: auto;
+}
+/*Watch out for this overriding unecessary items*/
+li
+{
+	display: block;
+}
+/*Watch out for this overriding unecessary items*/
+.more-link
+{
+	display: none;
+}
+/***End of Index page unique elements***/
+
+/***Ninja Forms***/
+.input-counter
+{
+	float: right;
+}
+/*This is to make the website type radio list vertical in place of being ordered normally*/
+.list-radio-wrap li
+{
+	clear: left;
+}
+/***End of Ninja Forms***/
