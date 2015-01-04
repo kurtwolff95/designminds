@@ -10,6 +10,21 @@
 {
  	width: device-width;
 }
+
+/*html tag styles*/
+/*h2 tag is intended for high level title*/
+h2 {
+	background-color: #EEE;
+	padding: 1% 1% 1% 2%;
+	font-size: 1.25em;
+	color: #555;
+	border-radius: 10px 10px 0 0;
+}
+/*h3 tag is intended for titles under a major title (ie. post titles) */
+h3 {
+	padding: 0 2%;
+	font-size: 1.1em;
+}
 iframe 
 {
 	margin: 0 auto;
@@ -72,22 +87,46 @@ iframe
 }
 #column2
 {
-	flex: 1;
-	-webkit-flex: 1;
+	flex: 2;
+	-webkit-flex: 2;
 	min-width: 200px;
 }
 #column3
 {
-	flex: 0.5;
-	-webkit-flex: 0.5;
+	flex: 1;
+	-webkit-flex: 1;
 	min-width: 200px;
 }
-/*Watch out for this overriding unecessary items*/
+/*Watch out for this overriding unnecessary items*/
 .content-box 
 {
 	margin: 1em 0;
 	padding: 0.5em;
-	border: solid 1px rgb(221, 221, 221);
+}
+/*styles the information that introduces the form to the customer */
+.content-box#form-info {
+	margin-bottom:0;
+	padding: 1% 0 0 0;
+}
+/*Intended to make content within the content-box to look more contained.*/
+.content-box p {
+	padding: 0 2% 0 2%;
+}
+
+/*styling specific to the contact form title*/
+.content-box h2#form-info-title {
+	padding-top: 4%;
+	margin-bottom:0;
+	background-color: #034464;
+	color: #FFB800;
+}
+.content-box p#form-info-para {
+	background-color: #034464; /*same colour as h2#form-info-title tag background*/
+	margin-top:0;
+	margin-bottom:0;
+	color: white;
+	font-size: 0.8em;
+	padding: 0 10px 2% 10px;
 }
 .aboutbox
 {
@@ -98,7 +137,6 @@ iframe
 }
 .boxheading
 {
-	padding-left: 1em;
 	clear: both;
 }
 .mapbox
@@ -119,7 +157,9 @@ iframe
 }
 .formbox
 {
-
+	margin-top: 0;
+	padding: 4%;
+	background-color: #EEE;
 }
 .portfoliobox
 {
@@ -162,6 +202,21 @@ li
 /***End of Index page unique elements***/
 
 /***Ninja Forms***/
+input {
+	border-radius: 4px;
+}
+input[type=text] {
+
+}
+.ninja-forms-field-error {
+	color: red;
+	font-size: 0.8em;
+}
+.ninja-forms-required-items {
+	color: forestgreen;
+	font-size: 0.8em;
+	margin-bottom: 4%;
+}
 .input-counter
 {
 	float: right;
