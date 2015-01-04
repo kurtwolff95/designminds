@@ -15,12 +15,12 @@
 			<h2 class="boxheading">About Us</h2>
 			<!--<img class="aboutimage" align="left" src="<?php bloginfo('template_directory'); ?>/img/aboutimage.png">-->
 			<p class="aboutp">
-			Design Minds sprouted into life in early 2014, a mutually felt desire within our team motivates us to design and 
-			implement beautiful websites which envelope supreme functionality and intuition. We create to inspire and motivate.
+			Design Minds sprouted into life in early 2014, a mutual passion within our team motivates us to design and 
+			implement beautiful websites.<strong>We create to inspire and motivate.</strong>
 			</p><!--About Paragraph-->
 			<p>
 				<h2 class="boxheading">
-					News from the crew drew brew shoe flu
+					News from the team
 				</h2>
 				<ul>
 					<?php
@@ -43,8 +43,9 @@
 		</div><!--.aboutbox-->
 	</div><!--#column1-->
 	<div id="column2">
-		<div class="content-box">
-			<p>This will be the place that we explain what the viewer should do</p>
+		<div class="content-box" id="form-info">
+			<h2 id="form-info-title">Contact us for a quote</h2>
+			<p id="form-info-para">To find out how we can help your small business, fill the in form below.</p>
 		</div>
 		<div class="content-box formbox">
 			<?php if( function_exists( 'ninja_forms_display_form' ) ){ ninja_forms_display_form( 2 ); }?>
@@ -54,7 +55,7 @@
 		<div class="content-box portfoliobox">
 			<p>
 				<h2>
-					Portfolio:
+					Portfolio
 				</h2>
 				<ul>
 					<?php
