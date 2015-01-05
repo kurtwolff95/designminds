@@ -54,9 +54,6 @@
 	<div id="column3">
 		<div class="content-box portfoliobox">
 			<p>
-				<h2>
-					Portfolio
-				</h2>
 				<ul>
 					<?php
 					$args = array( 'posts_per_page' => 5, 'category' => 3 );
