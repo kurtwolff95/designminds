@@ -1,8 +1,6 @@
 html {
 	background-color: #0771A5;
 	color: white;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 300;
 }
 
 /***Viewport settings declaration***/
@@ -19,14 +17,12 @@ html {
 }
 
 /*html tag styles*/
-h1, h2, h3, h4, h5 {
-	font-family: 'Droid Serif', serif;
-}
 /*h2 tag is intended for high level title*/
 h2 {
 	padding: 1% 1% 1% 2%;
 	font-size: 1.4em;
 	color: #0771A5;
+	font-family: 'Lobster', cursive;
 }
 /*h3 tag is intended for titles under a major title (ie. post titles) */
 h3 {
@@ -125,7 +121,6 @@ iframe
 .content-box h2#form-info-title {
 	padding-top: 2%;
 	margin-bottom:0;
-	margin-top: 0;
 	background-color: #034464;
 	color: #FFB800;
 	font-size: 2em;
@@ -137,16 +132,16 @@ iframe
 	color: white;
 	font-size: 1em;
 	padding: 0 10px 2% 13px;
+	font-family: 'Lato', sans-serif;
 }
+
 .aboutbox {
 	margin-top: 0;
 }
 ul h3 {
 	margin-bottom: 0;
 }
-.newstitle {
 	
-}
 .aboutp
 {
 	margin-top: 20px;
@@ -158,12 +153,8 @@ ul h3 {
 	-webkit-margin-after: 0em;
 	background-color: #055880;
 	padding: 0.5em 3%;
-}
-h2 .boxheading{
-	padding-bottom: 0;
-	margin-bottom: 0;
-}
 
+}
 .mapbox
 {
 
@@ -192,9 +183,9 @@ div#column2 {
 }
 .portfoliobox
 {
-
+	padding-top: 1em;
 }
-.portfoliobox li
+.indexportfolioli
 {
 	border: solid 1px rgb(221, 221, 221);
 	margin: 0.5em 0;
@@ -209,13 +200,12 @@ div#column2 {
 	margin-top:0;
 
 }
-.site-title 
+
+#logocontainer
 {
-	padding: 1em 0 0 1.5%;
-	width: 100%;
 	text-align: left;
 	font-family: 'Droid Serif', serif;
-	font-size: 1.8em;
+	font-size: 2.5em;
 }
 .aboutimage
 {
@@ -239,6 +229,7 @@ li
 	display: none;
 }
 /***End of Index page unique elements***/
+
 
 /*Form specific*/
 .content-box h2#form-info-title
@@ -274,12 +265,19 @@ input[type=text] {
 																										/*****************/
 
 
+
+/***Ninja Forms***/
+
 label {
-	line-height: 2.5em;
+	font-family: 'PT Sans Narrow', sans-serif;
+	padding: 2%;
+	font-size: 1em;
+	width: 100%;
 	color: #055880;
 }
-.ninja-forms-form-wrap label {
-	font-weight: 400;
+.ninja-forms-form-wrap input {
+	width: 100%;
+	color: #055880;
 }
 input {
 	border: 1px solid #CCC;
@@ -296,7 +294,6 @@ input[type=submit] {
 .ninja-forms-form-wrap input {
 	width: 100%;
 	color: #055880;
-
 }
 .ninja-forms-field-error {
 	color: red;
@@ -322,12 +319,13 @@ input[type=submit] {
 /***End of Ninja Forms***/
 div.field-wrap {
 	width: 100%;
-	padding: 0 5%;
 }
 div.field-wrap input[type="text"] {
 	float: right;
 	width: 60%;
 	background-color: #EEE;
+	width: 70%;
+
 }
 
 div.field-wrap select {
@@ -340,9 +338,8 @@ div.field-wrap label.side-label {
 	width: 20%;
 }
 .large-callout {
-	padding: 2em 0;
+padding: 40px 2%;
 font-family: "Droid Serif", serif;
-color: #FFB800;
 }
 .large-callout span#top {
 	font-size: 2.8em;
