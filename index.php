@@ -62,7 +62,7 @@
 					<!--<p><?php the_content(); ?></p>-->
 				</li>
 				<?php
-					} //Close the request: if has thumb, get everything 
+					 //Close the request: if has thumb, get everything 
 					endforeach; 
 					wp_reset_postdata();
 				?>
