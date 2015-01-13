@@ -1,14 +1,18 @@
 <?php get_header(); ?>
 <div id="main">
-
-	<div class="site-title">
-		<?php
-			bloginfo('name');
-		?>
-	</div>
-
 	<div id="column1">
-		
+		<div class="content-box bodybox">
+			<div id="logocontainer">
+				<?php
+					bloginfo('name');
+				?>
+			</div><!--#logo-->
+			<!--<p>
+				<h1>
+					"We build websites for small businesses"
+				</h1>
+			</p>-->
+		</div><!--.bodybox-->
 		<div class="content-box aboutbox">
 			<div class="large-callout">
 				<span id="top">Melbourne</span><br>
@@ -17,11 +21,13 @@
 			</div>
 			<h2 class="boxheading">About Us</h2>
 			<p class="aboutp">
-				Design Minds sprouted into life in early 2014, a mutual passion within our team motivates us to design and 
-				implement beautiful websites. <strong>We create to inspire and motivate.</strong>
-			</p>
-			
-				<h2 class="boxheading">News from the team</h2>
+			Design Minds sprouted into life in early 2014, a mutual passion within our team motivates us to design and 
+			implement beautiful websites. <strong>We create to inspire and motivate.</strong>
+			</p><!--About Paragraph-->
+			<p>
+				<h2 class="boxheading">
+					News from the team
+				</h2>
 				<ul>
 					<?php
 					$args = array( 'posts_per_page' => 5, 'category' => 2 );
@@ -30,6 +36,7 @@
 					?>
 					<li>
 						<h3 class="newstitle"><?php the_title(); ?></h3>
+						<!--<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>-->
 						<p><?php the_content(); ?></p>
 					</li>
 					<?php
@@ -41,16 +48,12 @@
 			</p><!--News Paragraph-->
 		</div><!--.aboutbox-->
 		<div class="content-box portfoliobox">
-			<ul>
-				<?php
-				$args = array( 'posts_per_page' => 5, 'category' => 3 );
-				$portfolioposts = get_posts( $args );
-				foreach ( $portfolioposts as $post ) : setup_postdata( $post ); 
-				?>
-				<li>
-					<?php 
-					if ( has_post_thumbnail() ) 
-					{
+			<p>
+				<ul>
+					<?php
+					$args = array( 'posts_per_page' => 5, 'category' => 3 );
+					$portfolioposts = get_posts( $args );
+					foreach ( $portfolioposts as $post ) : setup_postdata( $post ); 
 					?>
 					<a href="<?php the_permalink(); ?>">
 						<?php the_post_thumbnail(); ?>

@@ -141,7 +141,9 @@ iframe
 ul h3 {
 	margin-bottom: 0;
 }
-	
+.newstitle {
+
+}
 .aboutp
 {
 	margin-top: 20px;
@@ -153,7 +155,6 @@ ul h3 {
 	-webkit-margin-after: 0em;
 	background-color: #055880;
 	padding: 0.5em 3%;
-
 }
 .mapbox
 {
@@ -229,8 +230,6 @@ li
 	display: none;
 }
 /***End of Index page unique elements***/
-
-
 /*Form specific*/
 .content-box h2#form-info-title
 {
@@ -264,10 +263,6 @@ input[type=text] {
 																										/***Ninja Forms***/
 																										/*****************/
 
-
-
-/***Ninja Forms***/
-
 label {
 	font-family: 'PT Sans Narrow', sans-serif;
 	padding: 2%;
@@ -283,6 +278,7 @@ input {
 	border: 1px solid #CCC;
 	padding: 2%;
 }
+
 input[type=submit] {
 	background: -webkit-gradient(linear, left top, left bottom, from(#FFB800), to(#CA9200));
 	border-radius: .5em;
