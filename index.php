@@ -40,17 +40,6 @@
 				</ul>
 			</p><!--News Paragraph-->
 		</div><!--.aboutbox-->
-	</div><!--#column1-->
-	<div id="column2">
-		<div class="content-box" id="form-info">
-			<h2 id="form-info-title">Contact us for a quote</h2>
-			<p id="form-info-para">To find out how we can help your small business, fill the in form below.<br>There are no obligations, and we don't follow up unless you request.</p>
-		</div>
-		<div class="content-box formbox">
-			<?php if( function_exists( 'ninja_forms_display_form' ) ){ ninja_forms_display_form( 2 ); }?>
-		</div><!--.formbox-->
-	</div><!--#column2-->
-	<div id="column3">
 		<div class="content-box portfoliobox">
 			<ul>
 				<?php
@@ -75,8 +64,19 @@
 					wp_reset_postdata();
 				?>
 			</ul>
-		</div><!--.portfoliobox-->
-	</div><!--#column3-->
+		</div>
+	</div><!--#column1-->
+	<div id="column2">
+		<div class="content-box" id="form-info">
+			<h2 id="form-info-title">Contact us for a quote</h2>
+			<p id="form-info-para">To find out how we can help your small business, fill the in form below.<br>There are no obligations, and we don't follow up unless you request.</p>
+		</div>
+		<div class="content-box formbox">
+			<?php if( function_exists( 'ninja_forms_display_form' ) ){ ninja_forms_display_form( 2 ); }?>
+		</div><!--.formbox-->
+		
+	</div><!--#column2-->
+
 </div><!--#main-->
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
