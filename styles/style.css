@@ -134,6 +134,7 @@ iframe
 	padding: 0 10px 2% 13px;
 	font-family: 'Lato', sans-serif;
 }
+
 .aboutbox {
 	margin-top: 0;
 }
@@ -141,6 +142,7 @@ ul h3 {
 	margin-bottom: 0;
 }
 .newstitle {
+
 }
 .aboutp
 {
@@ -153,7 +155,6 @@ ul h3 {
 	-webkit-margin-after: 0em;
 	background-color: #055880;
 	padding: 0.5em 3%;
-
 }
 .mapbox
 {
