@@ -1,3 +1,8 @@
+html {
+	background-color: #0771A5;
+	color: white;
+}
+
 /***Viewport settings declaration***/
 @viewport 
 {
@@ -164,7 +169,7 @@ iframe
 }
 .portfoliobox
 {
-
+	padding-top: 1em;
 }
 .indexportfolioli
 {
@@ -173,11 +178,9 @@ iframe
 }
 #logocontainer 
 {
-	text-align: center;
-}
-.logo
-{
-	width: 100%;
+	text-align: left;
+	font-family: 'Droid Serif', serif;
+	font-size: 2.5em;
 }
 .aboutimage
 {
@@ -207,9 +210,13 @@ label {
 	font-family: 'PT Sans Narrow', sans-serif;
 	padding: 2%;
 	font-size: 1em;
-	width: 150px;
+	width: 100%;
+	color: #055880;
 }
-
+.ninja-forms-form-wrap input {
+	width: 100%;
+	color: #055880;
+}
 input {
 	border: 1px solid #CCC;
 	padding: 2%;
@@ -222,7 +229,7 @@ input[type=text] {
 	font-size: 0.8em;
 }
 .ninja-forms-required-items {
-	color: forestgreen;
+	color: #FF3500;
 	font-size: 0.8em;
 	margin-bottom: 4%;
 }
@@ -236,3 +243,31 @@ input[type=text] {
 	clear: left;
 }
 /***End of Ninja Forms***/
+div.field-wrap {
+	width: 100%;
+}
+div.field-wrap input[type="text"] {
+	float: right;
+	width: 70%;
+}
+div.field-wrap select {
+	float: right;
+	width: 70%;
+}
+div.field-wrap label.side-label {
+	width: 20%;
+}
+.large-callout {
+padding: 40px 2%;
+font-family: "Droid Serif", serif;
+}
+.large-callout span#top {
+	font-size: 2.8em;
+}
+.large-callout span#middle {
+	font-size: 2.05em;
+}
+.large-callout span#bottom {
+	font-size: 2em;
+
+}

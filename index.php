@@ -3,7 +3,9 @@
 	<div id="column1">
 		<div class="content-box bodybox">
 			<div id="logocontainer">
-				<img class="logo" src="<?php bloginfo('template_directory'); ?>/img/fulllogo.png">
+				<?php
+					bloginfo('name');
+				?>
 			</div><!--#logo-->
 			<!--<p>
 				<h1>
@@ -12,11 +14,15 @@
 			</p>-->
 		</div><!--.bodybox-->
 		<div class="content-box aboutbox">
+			<div class="large-callout">
+				<span id="top">Melbourne</span><br>
+				<span id="middle">website design</span><br>
+				<span id="bottom">&amp; development</span>
+			</div>
 			<h2 class="boxheading">About Us</h2>
-			<!--<img class="aboutimage" align="left" src="<?php bloginfo('template_directory'); ?>/img/aboutimage.png">-->
 			<p class="aboutp">
 			Design Minds sprouted into life in early 2014, a mutual passion within our team motivates us to design and 
-			implement beautiful websites.<strong>We create to inspire and motivate.</strong>
+			implement beautiful websites. <strong>We create to inspire and motivate.</strong>
 			</p><!--About Paragraph-->
 			<p>
 				<h2 class="boxheading">
