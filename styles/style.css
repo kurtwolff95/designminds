@@ -85,13 +85,15 @@ iframe
 /***Index page unique elements***/
 #column1, #column2, #column3
 {
-	margin: -0.5em 0.5em;
+	padding: 0;
+	margin:0;
 }
 #column1
 {
 	flex: 1;
 	-webkit-flex: 1;
 	min-width: 200px;
+	padding-right: 10%;
 }
 #column2
 {
@@ -99,12 +101,7 @@ iframe
 	-webkit-flex: 2;
 	min-width: 200px;
 }
-#column3
-{
-	flex: 1;
-	-webkit-flex: 1;
-	min-width: 200px;
-}
+
 /*Watch out for this overriding unnecessary items*/
 .content-box 
 {
@@ -113,8 +110,8 @@ iframe
 }
 /*styles the information that introduces the form to the customer */
 .content-box#form-info {
-	margin-bottom:0;
-	padding: 1% 0 0 0;
+	margin:0;
+	padding:0;
 }
 /*Intended to make content within the content-box to look more contained.*/
 .content-box p {
@@ -138,25 +135,26 @@ iframe
 	font-size: 1em;
 	padding: 0 10px 2% 13px;
 }
-.aboutbox p {
+.aboutbox {
 	margin-top: 0;
 }
 ul h3 {
 	margin-bottom: 0;
 }
 .newstitle {
-	background-color: #FFB800;
-	color: black;
-	padding: 0.5em 3%;
+	
 }
 .aboutp
 {
+	margin-top: 20px;
 }
 .boxheading
 {
 	clear: both;
 	color: white; 	/* standardise*/
 	-webkit-margin-after: 0em;
+	background-color: #055880;
+	padding: 0.5em 3%;
 }
 h2 .boxheading{
 	padding-bottom: 0;
@@ -181,9 +179,13 @@ h2 .boxheading{
 }
 .formbox
 {
-	margin-top: 0;
+	margin:0;
 	padding: 4%;
-	background-color: #EEE;
+	background-color: #FFF;
+}
+div#column2 {
+	box-shadow: 0px 0px 25px #034464;
+	border: 5px solid #034464;
 }
 .portfoliobox
 {
@@ -284,10 +286,14 @@ div.field-wrap {
 div.field-wrap input[type="text"] {
 	float: right;
 	width: 60%;
+	background-color: #EEE;
 }
+
 div.field-wrap select {
 	float: right;
-	width: 70%;
+	width: 100%;
+	color: black;
+	background-color: #EEE;
 }
 div.field-wrap label.side-label {
 	width: 20%;
