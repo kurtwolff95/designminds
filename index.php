@@ -47,6 +47,17 @@
 				</ul>
 			</p><!--News Paragraph-->
 		</div><!--.aboutbox-->
+	</div><!--#column1-->
+	<div id="column2">
+		<div class="content-box" id="form-info">
+			<h2 id="form-info-title">Contact us for a quote</h2>
+			<p id="form-info-para">To find out how we can help your small business, fill the in form below.</p>
+		</div>
+		<div class="content-box formbox">
+			<?php if( function_exists( 'ninja_forms_display_form' ) ){ ninja_forms_display_form( 2 ); }?>
+		</div><!--.formbox-->
+	</div><!--#column2-->
+	<div id="column3">
 		<div class="content-box portfoliobox">
 			<p>
 				<ul>
@@ -55,31 +66,27 @@
 					$portfolioposts = get_posts( $args );
 					foreach ( $portfolioposts as $post ) : setup_postdata( $post ); 
 					?>
-					<a href="<?php the_permalink(); ?>">
-						<?php the_post_thumbnail(); ?>
-					</a>
-					<!--<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>-->
-					<!--<p><?php the_content(); ?></p>-->
-				</li>
-				<?php
-					 //Close the request: if has thumb, get everything 
-					endforeach; 
-					wp_reset_postdata();
-				?>
-			</ul>
-		</div>
-	</div><!--#column1-->
-	<div id="column2">
-		<div class="content-box" id="form-info">
-			<h2 id="form-info-title">Contact us for a quote</h2>
-			<p id="form-info-para">To find out how we can help your small business, fill the in form below.<br>There are no obligations, and we don't follow up unless you request.</p>
-		</div>
-		<div class="content-box formbox">
-			<?php if( function_exists( 'ninja_forms_display_form' ) ){ ninja_forms_display_form( 2 ); }?>
-		</div><!--.formbox-->
-		
-	</div><!--#column2-->
 
+					<li class="indexportfolioli">
+						<?php 
+						if ( has_post_thumbnail() ) 
+						{
+						?>
+						<a href="<?php the_permalink(); ?>">
+							<?php the_post_thumbnail(); ?>
+						</a>
+						<!--<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>-->
+						<!--<p><?php the_content(); ?></p>-->
+					</li>
+					<?php
+						} //Close the request: if has thumb, get everything 
+						endforeach; 
+						wp_reset_postdata();
+					?>
+				</ul>
+			</p>
+		</div><!--.portfoliobox-->
+	</div><!--#column3-->
 </div><!--#main-->
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
