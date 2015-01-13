@@ -1,0 +1,8 @@
+Fonts:
+Montserrat
+Shadows Into Light
+
+Colours:
+  -Background #FFF
+  -Company Blue #0572a6
+  -Company Green #00ae4d

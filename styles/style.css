@@ -112,22 +112,6 @@ iframe
 .content-box p {
 	padding: 0 2% 0 2%;
 }
-
-/*styling specific to the contact form title*/
-.content-box h2#form-info-title {
-	padding-top: 4%;
-	margin-bottom:0;
-	background-color: #034464;
-	color: #FFB800;
-}
-.content-box p#form-info-para {
-	background-color: #034464; /*same colour as h2#form-info-title tag background*/
-	margin-top:0;
-	margin-bottom:0;
-	color: white;
-	font-size: 0.8em;
-	padding: 0 10px 2% 10px;
-}
 .aboutbox
 {
 
@@ -173,6 +157,7 @@ iframe
 #logocontainer 
 {
 	text-align: center;
+	padding-top: 4%;
 }
 .logo
 {
@@ -201,12 +186,31 @@ li
 }
 /***End of Index page unique elements***/
 
-/***Ninja Forms***/
-input {
+/*Form specific*/
+.content-box h2#form-info-title
+{
+	padding-top: 4%;
+	margin-bottom:0;
+	background-color: #0572a6;
+	color: #FFB800;
+}
+.content-box p#form-info-para
+{
+	background-color: #0572a6; /*same colour as h2#form-info-title tag background*/
+	margin-top:0;
+	margin-bottom:0;
+	color: white;
+	font-size: 0.8em;
+	padding: 0 10px 2% 10px;
+}
+input
+{
+	border: 1px solid #DDD;
 	border-radius: 4px;
 }
 input[type=text] {
-
+	line-height: 200%;
+	padding-left: 10px;
 }
 .ninja-forms-field-error {
 	color: red;
@@ -226,4 +230,4 @@ input[type=text] {
 {
 	clear: left;
 }
-/***End of Ninja Forms***/
+/***End of Form specific elements***/
