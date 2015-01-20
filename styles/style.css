@@ -46,265 +46,49 @@ iframe
   left: 0; top: 0;
 }
 /***End of Viewport settings declaration***/
-
 /***Main structural elements***/
-#wrapper
-{
-	line-height: 1.2;
-}
 #header
 {
-	display: none;
+	background-color: blue;
 }
-#main
+#maincontent
 {
-	width: 90%;
-	max-width: 1300px;
-	margin: 0.5em auto 0em auto;
-  	display: -webkit-flex;     /* NEW - Chrome */
-  	display: flex;  
-	flex-direction: row;
-	justify-content: space-between;
-	flex-wrap: wrap;
+	background-color: white;
 }
 #footer
 {
-
+	background-color: red;
 }
-/***End of Main structural elements***/
-
-/***Index page unique elements***/
-#column1, #column2, #column3
+/***End Main structural elements***/
+/***Tagline***/
+#tagline
 {
-	padding: 0;
-	margin:0;
+  float: left;
+  font-family: "Montserrat";
+  font-size: 150%;
+  line-height: 0.9;
 }
-#column1
+#taglineleft
 {
-	flex: 1;
-	-webkit-flex: 1;
-	min-width: 200px;
-	padding-right: 10%;
+  text-align: left ;
+  font-size: 1em;
 }
-#column2
+#taglinebig
 {
-	flex: 2;
-	-webkit-flex: 2;
-	min-width: 200px;
+  font-size: 2em;
+  color: #0572a6;
 }
-
-/*Watch out for this overriding unnecessary items*/
-.content-box 
+#taglineright
 {
-	margin: 1em 0;
-	padding: 0.5em;
+  text-align: right;
+  font-size: 1em;
 }
-/*styles the information that introduces the form to the customer */
-.content-box#form-info {
-	margin:0;
-	padding:0;
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
 }
-/*Intended to make content within the content-box to look more contained.*/
-.content-box p {
-	padding: 0 2% 0 2%;
-}
-.aboutbox
-{
-
-
-/*styling specific to the contact form title*/
-.content-box h2#form-info-title {
-	padding-top: 2%;
-	margin-bottom:0;
-	background-color: #034464;
-	color: #FFB800;
-	font-size: 2em;
-}
-.content-box p#form-info-para {
-	background-color: #034464; /*same colour as h2#form-info-title tag background*/
-	margin-top:0;
-	margin-bottom:0;
-	color: white;
-	font-size: 1em;
-	padding: 0 10px 2% 13px;
-	font-family: 'Lato', sans-serif;
-}
-
-.aboutbox
-{
-
-
-}
-.aboutp
-{
-	margin-top: 20px;
-}
-.boxheading
-{
-	clear: both;
-}
-.mapbox
-{
-
-}
-.mapframe
-{
-	width: 100%;
-	height: auto;
-}
-.feedbackbox
-{
-
-}
-.bodybox
-{
-}
-.formbox
-{
-	margin:0;
-	padding: 4%;
-	background-color: #FFF;
-}
-div#column2 {
-	box-shadow: 0px 0px 25px #034464;
-	border: 5px solid #034464;
-}
-.portfoliobox
-{
-
-}
-.indexportfolioli
-{
-	border: solid 1px rgb(221, 221, 221);
-	margin: 0.5em 0;
-}
-
-#logocontainer 
-
-{
-	text-align: center;
-}
-.logo
-{
-	width: 100%;
-}
-.aboutimage
-{
-	width: 25%;
-	margin: 0.5em;
-}
-/*Watch out for this overriding unecessary items*/
-.attachment-post-thumbnail
-{
-	width: 100%;
-	height: auto;
-}
-/*Watch out for this overriding unecessary items*/
-li
-{
-	display: block;
-}
-/*Watch out for this overriding unecessary items*/
-.more-link
-{
-	display: none;
-}
-/***End of Index page unique elements***/
-/*Form specific*/
-.content-box h2#form-info-title
-{
-	padding-top: 4%;
-	margin-bottom:0;
-	background-color: #0572a6;
-	color: #FFB800;
-}
-.content-box p#form-info-para
-{
-	background-color: #0572a6; /*same colour as h2#form-info-title tag background*/
-	margin-top:0;
-	margin-bottom:0;
-	color: white;
-	font-size: 0.8em;
-	padding: 0 10px 2% 10px;
-}
-input
-{
-	border: 1px solid #DDD;
-	border-radius: 4px;
-}
-input[type=text] {
-	line-height: 200%;
-	padding-left: 10px;
-}
-
-/***Ninja Forms***/
-label {
-	font-family: 'PT Sans Narrow', sans-serif;
-	padding: 2%;
-	font-size: 1em;
-	width: 150px;
-}
-
-input {
-	border: 1px solid #CCC;
-	padding: 2%;
-}
-
-input[type=text] {
-
-}
-.ninja-forms-field-error {
-	color: red;
-	font-size: 0.8em;
-}
-.ninja-forms-required-items {
-	color: forestgreen;
-	font-size: 0.8em;
-	margin-bottom: 4%;
-}
-.input-counter
-{
-	float: right;
-}
-/*This is to make the website type radio list vertical in place of being ordered normally*/
-.list-radio-wrap li
-{
-	clear: left;
-}
-
-/***End of Form specific elements***/
-
-/***End of Ninja Forms***/
-div.field-wrap {
-	width: 100%;
-}
-div.field-wrap input[type="text"] {
-	float: right;
-	width: 70%;
-
-}
-
-div.field-wrap select {
-	float: right;
-	width: 100%;
-	color: black;
-	background-color: #EEE;
-}
-div.field-wrap label.side-label {
-	width: 20%;
-}
-.large-callout {
-padding: 40px 2%;
-font-family: "Droid Serif", serif;
-}
-.large-callout span#top {
-	font-size: 2.8em;
-}
-.large-callout span#middle {
-	font-size: 2.05em;
-}
-.large-callout span#bottom {
-	font-size: 2em;
-
-}
-
+/***End Tagline***/

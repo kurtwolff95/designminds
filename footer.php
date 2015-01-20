@@ -1,10 +1,10 @@
-<div id="footer">
-    <div id="colophon">
-        <div id="site-info">
-        </div><!-- #site-info -->
-    </div><!-- #colophon -->
-</div><!-- #footer -->
-</div><!-- #wrapper -->
-<?php wp_footer(); ?>
+    <div id="footer">
+          <div id="site-info">
+            <p>Footer text</p>
+          </div><!-- #site-info -->
+    </div><!-- #footer -->
+  </div><!-- #wrapper -->
+  <?php wp_footer(); ?>
+
 </body>
 </html>
