@@ -34,141 +34,48 @@ iframe
 /***End of Viewport settings declaration***/
 
 /***Main structural elements***/
-#wrapper
-{
-	line-height: 1.2;
-}
 #header
 {
-	display: none;
+	background-color: blue;
 }
-#main
+#maincontent
 {
-	width: 90%;
-	max-width: 1300px;
-	margin: 0.5em auto 0em auto;
-  	display: -webkit-flex;     /* NEW - Chrome */
-  	display: flex;  
-	flex-direction: row;
-	justify-content: space-between;
-	flex-wrap: wrap;
+	background-color: white;
 }
 #footer
 {
-
+	background-color: red;
 }
-/***End of Main structural elements***/
-
-/***Index page unique elements***/
-#column1, #column2, #column3
+/***End Main structural elements***/
+/***Tagline***/
+#tagline
 {
-	margin: -0.5em 0.5em;
+  float: left;
+  font-family: "Montserrat";
+  font-size: 150%;
+  line-height: 0.9;
 }
-#column1
+#taglineleft
 {
-	flex: 1;
-	-webkit-flex: 1;
-	min-width: 200px;
+  text-align: left ;
+  font-size: 1em;
 }
-#column2
+#taglinebig
 {
-	flex: 1;
-	-webkit-flex: 1;
-	min-width: 200px;
+  font-size: 2em;
+  color: #0572a6;
 }
-#column3
+#taglineright
 {
-	flex: 0.5;
-	-webkit-flex: 0.5;
-	min-width: 200px;
+  text-align: right;
+  font-size: 1em;
 }
-/*Watch out for this overriding unecessary items*/
-.content-box 
-{
-	margin: 1em 0;
-	padding: 0.5em;
-	border: solid 1px rgb(221, 221, 221);
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
 }
-.aboutbox
-{
-
-}
-.aboutp
-{
-}
-.boxheading
-{
-	padding-left: 1em;
-	clear: both;
-}
-.mapbox
-{
-
-}
-.mapframe
-{
-	width: 100%;
-	height: auto;
-}
-.feedbackbox
-{
-
-}
-.bodybox
-{
-}
-.formbox
-{
-
-}
-.portfoliobox
-{
-
-}
-.indexportfolioli
-{
-	border: solid 1px rgb(221, 221, 221);
-	margin: 0.5em 0;
-}
-#logocontainer 
-{
-	text-align: center;
-}
-.logo
-{
-	width: 100%;
-}
-.aboutimage
-{
-	width: 25%;
-	margin: 0.5em;
-}
-/*Watch out for this overriding unecessary items*/
-.attachment-post-thumbnail
-{
-	width: 100%;
-	height: auto;
-}
-/*Watch out for this overriding unecessary items*/
-li
-{
-	display: block;
-}
-/*Watch out for this overriding unecessary items*/
-.more-link
-{
-	display: none;
-}
-/***End of Index page unique elements***/
-
-/***Ninja Forms***/
-.input-counter
-{
-	float: right;
-}
-/*This is to make the website type radio list vertical in place of being ordered normally*/
-.list-radio-wrap li
-{
-	clear: left;
-}
-/***End of Ninja Forms***/
+/***End Tagline***/
