@@ -4,26 +4,49 @@ only screen and (-webkit-min-device-pixel-ratio: 1.1),
 only screen and (   min--moz-device-pixel-ratio: 1.1),
 only screen and (     -o-min-device-pixel-ratio: 10/9),
 only screen and (        min-device-pixel-ratio: 1.1),
-only screen and (              min-resolution: 2dppx), {
-	#column1, #column2, #column3 
-	{
-		margin: -0.5em 0.5em;	
-	}
-	#column2
-	{
-		order: 1;
-	}
-	#column1
-	{
-		order: 2;
-	}
-	#column3
-	{
-		order: 3;
-	}
-	#main
-	{
-		width: auto;
-		margin: 0.5em 0.5em 0 0.5em;
-	}
+only screen and (              min-resolution: 2dppx), 
+{
+  /***Main Structural Elements***/
+  #header
+  {
+    height: 12.1875em;
+  }
+  #header h1
+  {
+    padding: 1em 0 0 3%;
+  }
+  #maincontent
+  {
+    width: 100%;
+  }
+  #footer
+  {
+    text-indent: 0;
+    text-align: center;
+  }
+  /***End Main Structural Elements***/
+  /***Main content Elements***/
+  #tagline
+  {
+    float: none;
+    padding: 0;
+    width: 90%;
+    margin: 1em auto 1em auto;
+    font-size: 100%;
+  }
+  #tagline-left, #tagline-right
+  {
+    font-size: 1.5em;
+  }
+  #introduction-section p
+  {
+    width: 100%;
+    font-size: 1em;
+  }
+  #design-col, #build-col, #host-col, #maintain-col
+  {
+    width: 100%;
+    height: auto;
+  }
+  /***End Main content Elements***/
 }

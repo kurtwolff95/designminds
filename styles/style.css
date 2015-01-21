@@ -1,21 +1,25 @@
 /***Viewport settings declaration***/
-@viewport {
-	width: device-width;
-	maximum-scale: 1.5;
-	initial-scale: 1;
+@viewport 
+{
+  width: device-width;
+  maximum-scale: 1.5;
+  initial-scale: 1;
 }
 /*Shitty MS*/
-@-ms-viewport {
- 	width: device-width;
+@-ms-viewport 
+{
+  width: device-width;
 }
 
 /*html tag styles*/
-html {
+html 
+{
   font-size: 16px;
   font-family: "Droid Serif", serif;
 }
 /*header tag resets*/
-h1,h2,h3,h4,h5,h6 {
+h1,h2,h3,h4,h5,h6 
+{
   -webkit-margin-before:0;
   -webkit-margin-after:0;
   margin:0; /*IE fix */
@@ -23,20 +27,23 @@ h1,h2,h3,h4,h5,h6 {
   font-family: "Droid Serif", serif;
 }
 
-iframe {
-	margin: 0 auto;
-	display: block;
-	width: 100%;
-	height: auto;
+iframe 
+{
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+  height: auto;
 }
-.aspect-ratio {
+.aspect-ratio 
+{
   position: relative;
   width: 100%;
   height: 0;
   /*Purely only compatible with 16:9 Ratio content (Almost all YouTube clips), this is not a problem; we force viewers to use 16:9*/
   padding-bottom: 56.25%;
 }
-.aspect-ratio iframe {
+.aspect-ratio iframe 
+{
   position: absolute;
   width: 100%;
   height: 100%;
@@ -44,7 +51,8 @@ iframe {
 }
 /***End of Viewport settings declaration***/
 /***Main structural elements***/
-#header {
+#header 
+{
   color: white;
   background-color: #213e75; /*backup in case image does not load*/
   height: 17.1875em; /* = 275px */
@@ -52,74 +60,88 @@ iframe {
   background-repeat: repeat-x;
   position: relative;
 }
-#header h1 {
+#header h1 
+{
   font-size: 3em;
   padding: 1.5em 0 0 3%;
 }
-#header h3 {
+#header h3 
+{
   font-size: 1.25em;
   color: #41d13d;
   padding: 0 0 0 3%;
 }
-#logo {
+#logo 
+{
   max-width: 1200px;
   margin: 0 auto;
 }
-  #navigation-bar {
+  #navigation-bar 
+  {
     background-color: #2a8b4c;
     height: 2em;
     width: 100%;
     position: absolute;
     bottom:0;
   }
-    .menu {
+    .menu 
+    {
       max-width: 1200px;
       margin: 0 auto;
     }
-    .menu li {
+    .menu li 
+    {
       list-style: none;   /*remove bullet point*/
       float: right;       /*display horiztontally*/
       line-height: 2em;   /*center text vertically*/
       margin-right: 2em;
     }
-    .menu li a {
+    .menu li a 
+    {
       text-decoration: none;
       color: white;
     }
-    .menu li a:hover {
+    .menu li a:hover 
+    {
       background-color: #59a473;
     }
 
 
 
 
-#maincontent {
-	background-color: white;
+#maincontent 
+{
+  background-color: white;
   max-width: 1200px;
   margin: 0 auto;
 }
 
   /***Tagline***/
-  #tagline {
+  #tagline 
+  {
     float: left;
     font-family: "Montserrat";
     font-size: 150%;
     line-height: 0.9;
     padding: 3% 0 3% 3%;
   }
-  #tagline-left {
+  #tagline-left 
+  {
     text-align: left ;
     font-size: 1em;
   }
-  #tagline-center {
+  #tagline-center 
+  {
     font-size: 2em;
     color: #0572a6;
   }
-  #tagline-right {
+  #tagline-right 
+  {
     text-align: right;
     font-size: 1em;
   }
-  .clearfix:after {
+  .clearfix:after 
+  {
       content: ".";
       display: block;
       clear: both;
@@ -129,59 +151,78 @@ iframe {
   }
   /***End Tagline***/
 
-#introduction-section {
+#introduction-section 
+{
   width: 94%;
   float: left;
   display: inline-block;
   padding: 3%;
 }
-#introduction-section p {
+#introduction-section p 
+{
   width: 50%;
   font-size: 1.25em;
   margin-bottom: 1em;
 }
-img#responsive-design {
+img#responsive-design 
+{
   float: right;
   width: 50%;
 }
-img#contact-us {
+img#contact-us 
+{
   float: left;
 }
-p#contact-us-paragraph {
+p#contact-us-paragraph 
+{
   height: 9.375em; /* = 150px*/
   margin-top: 2em;
 }
 
-#design-col, #build-col, #host-col, #maintain-col {
+#design-col, #build-col, #host-col, #maintain-col 
+{
   width: 25%;
-  height: 300px; /*change*/
   float: left;
 }
-#offer {
+#offer 
+{
   width: 94%;
   padding: 0 3% 0 3%;
 }
-.offer-header {
+.offer-header 
+{
   width: 100%;
   float: left;
 }
-.offer-header img {
+.offer-header img 
+{
   float: left;
 }
-.offer-header h2 {
+.offer-header h2 
+{
   line-height: 85px;
   float: left;
 }
-.offer-content {
+.offer-content 
+{
   padding: 4%;
 }
 
-#footer {
+#footer 
+{
   width: 100%;
   clear: both;
   text-indent: 3%;
-  max-width: 1200px;
   margin: 0 auto;
+  border-top: 5px solid gray;
+  color: white;
+  background: #213e75;
+  height: 5em;
 }
+  #site-info
+  {
+    margin: 1em auto 0 auto;
+    max-width: 1200px;
+  }
 
 

@@ -51,7 +51,7 @@
             <div class="offer-header">
               <img src="wp-content/themes/designminds/img/host-icon.jpg"/><h2>Host</h2>
             </div>
-            <div class="offer-content"> the website is build and everything is working, you need to rent some space online to host it. We offer hosting to make this process easier on you for an annual fee.</div>
+            <div class="offer-content">The website is built and everything is working, you need to rent some space online to host it. We offer hosting to make this process easier on you for an annual fee.</div>
           </div>
 
           <div id="maintain-col">
