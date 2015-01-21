@@ -49,15 +49,14 @@
 
   <div id="wrapper" class="hfeed">
     <div id="header">
-      <div id="headerback">
-        <img src="background">
-      </div><!-- #headerback -->
-      <div id="logocontainer">
-        <img src="logo"> 
-      </div><!-- #logocontainer -->
-      <div id="navigationbar"> 
-        <div id="navigationcontainer">
+        
+      <div id="logo">
+        <h1>designminds.</h1>
+        <h3>small business website solutions</h3>
+      </div><!-- #logo -->
+
+      <div id="navigation-bar"> 
           <?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'container_class' => 'menu-header' ) ); ?>
-        </div><!-- #navigationcontainer -->
       </div><!-- #navigationbar -->
+      
     </div><!-- #header -->
