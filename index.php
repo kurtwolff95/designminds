@@ -50,7 +50,9 @@
             <div class="offer-header">
               <img src="wp-content/themes/designminds/img/host-icon.jpg"/><h2>Host</h2>
             </div>
+
             <div class="offer-content"> Don't worry about hosting your new site, we have it covered. Any questions, we can help.</div>
+            
           </div>
 
           <div id="maintain-col">
