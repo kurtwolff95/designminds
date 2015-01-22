@@ -15,18 +15,17 @@
 
           <img id="responsive-design" src="wp-content/themes/designminds/img/responsive_design.jpg" />
           <p>
-            Reduce your cost of a website by working with us. We run our small business on the
-             side, so we can pass on the savings to you.
+            We develop websites for small businesses and community groups and offer a long term relationship, so you always know who to call about your website matters.
           </p>
           <p>
-            We specialise in getting websites developed for small businesses, whether you're a
-             local tradie, a service provider, or you simply want your own online blog.
+            Whether you're a tradie, a hobbyist, a local community group, or you simply wanting your own online blog, we can build a website for you.
           </p>
           <p id="contact-us-paragraph">
             <img id="contact-us" src="wp-content/themes/designminds/img/contact_us.jpg" />
             <br>
-            <strong>Not sure if we're right for you?</strong><br>
-            Contact us and we'll let you know if we can help your business.
+            Find out how we can help you!<br><br>
+            Contact us for a quote.
+            <br><b>studio@designminds.com.au</b>
           </p>
 
         </div>
@@ -37,28 +36,28 @@
             <div class="offer-header">
               <img src="wp-content/themes/designminds/img/design-icon.jpg"/><h2>Design</h2>
             </div>
-            <div class="offer-content">If you don't have a website, or are looking at upgrading an existing website, we can design the look and feel of the new website for you. It is a good idea to have a look at other websites that you like the look of so we can help you get something that you want.</div>
+            <div class="offer-content">We can design the look and feel of a new website for you.</div>
           </div>
 
           <div id="build-col">
             <div class="offer-header">
               <img src="wp-content/themes/designminds/img/build-icon.jpg"/><h2>Build</h2>
             </div>
-          <div class="offer-content">Once you have settled on a design that you like we get to work building the website for you. The more things you need the website to do, the longer this process will take.</div>
+          <div class="offer-content">We can add and much or as little functionality you require.</div>
           </div>
 
           <div id="host-col">
             <div class="offer-header">
               <img src="wp-content/themes/designminds/img/host-icon.jpg"/><h2>Host</h2>
             </div>
-            <div class="offer-content"> the website is build and everything is working, you need to rent some space online to host it. We offer hosting to make this process easier on you for an annual fee.</div>
+            <div class="offer-content"> Don't worry about hosting your new site, we have it covered. Any questions, we can help.</div>
           </div>
 
           <div id="maintain-col">
             <div class="offer-header">
               <img src="wp-content/themes/designminds/img/maintain-icon.jpg"/><h2>Maintain</h2>
             </div>
-            <div class="offer-content">Once the website is up and running, it is available to the world. But what happens if there is an issue, or you want to change something? As a part of our hosting package we provide you the assistance you need in order to keep your website running smoothly.</div>
+            <div class="offer-content">Once your website is live, we assist you with any query and can backup your website as an added service.</div>
           </div>
 
         </div>

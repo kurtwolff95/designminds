@@ -12,7 +12,6 @@
 /*html tag styles*/
 html {
   font-size: 16px;
-  font-family: "Droid Serif", serif;
 }
 /*header tag resets*/
 h1,h2,h3,h4,h5,h6 {
@@ -21,6 +20,7 @@ h1,h2,h3,h4,h5,h6 {
   margin:0; /*IE fix */
   padding:0; /*IE fix*/
   font-family: "Droid Serif", serif;
+  font-weight: 400;
 }
 
 iframe {
@@ -53,13 +53,13 @@ iframe {
   position: relative;
 }
 #header h1 {
-  font-size: 3em;
-  padding: 1.5em 0 0 3%;
+  font-size: 5em;
+  padding: 4% 0 0 3%;
 }
 #header h3 {
+  font-family: 'Montserrat';
   font-size: 1.25em;
-  color: #41d13d;
-  padding: 0 0 0 3%;
+  padding: 1% 0 0 3%;
 }
 #logo {
   max-width: 1200px;
@@ -112,7 +112,7 @@ iframe {
     font-size: 1em;
   }
   #tagline-center {
-    font-size: 2em;
+    font-size: 1.5em;
     color: #0572a6;
   }
   #tagline-right {
@@ -154,16 +154,19 @@ p#contact-us-paragraph {
 
 #design-col, #build-col, #host-col, #maintain-col {
   width: 25%;
-  height: 300px; /*change*/
   float: left;
+
+  min-height: 200px;
 }
 #offer {
   width: 94%;
   padding: 0 3% 0 3%;
+  font-family: 'Montserrat';
 }
 .offer-header {
   width: 100%;
   float: left;
+  font-weight: 900;
 }
 .offer-header img {
   float: left;
