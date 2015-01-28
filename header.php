@@ -50,9 +50,10 @@
   <div id="wrapper" class="hfeed">
     <div id="header">
         
-      <div id="logo">
-        <h1>designminds.</h1>
-        <h3>small business website solutions</h3>
+      <div id="logo-wrapper">
+        <img src="wp-content/themes/designminds/img/DM_logo.png" alt="Design Minds, we work for small business" id="logo" />
+        <h2>Email us for a quote<br>
+          <a href="mailto:studio@designminds.com.au">studio@designminds.com.au</a></h2>
       </div><!-- #logo -->
 
       <div id="navigation-bar"> 

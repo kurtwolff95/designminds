@@ -45,16 +45,14 @@ h1,h2,h3,h4,h5,h6
   -webkit-margin-after:0;
   margin:0; /*IE fix */
   padding:0; /*IE fix*/
-  font-family: "Droid Serif", serif;
   font-weight: 400;
 }
 /***Main structural elements***/
 #header 
 {
   color: white;
-  background-color: #213e75; /*backup in case image does not load*/
+  background-color: #1d3747; /*backup in case image does not load*/
   height: 17.1875em; /* = 275px */
-  background-image: url("../img/arrow_pattern.png");
   background-repeat: repeat-x;
   position: relative;
 }
@@ -68,18 +66,43 @@ h1,h2,h3,h4,h5,h6
   font-size: 1.25em;
   padding: 1% 0 0 3%;
 }
-#logo 
+#logo-wrapper 
 {
   max-width: 1200px;
   margin: 0 auto;
+  height: 100%;
+  position: relative;
+}
+#logo-wrapper a
+{
+  color: white;
+  text-decoration: none;
+}
+#logo-wrapper a:hover
+{
+  color: #e9523a;
+}
+#logo-wrapper h2
+{
+  float: right;
+  font-size: 1.5em;
+  position: absolute;
+  top: 6em;
+  right: 10em;
+}
+img#logo
+{
+  height: 70%;
+  margin: 2em 0 0 2em;
 }
 #navigation-bar 
 {
-  background-color: #2a8b4c;
+  /*background-color: #2a8b4c;*/
   height: 2em;
   width: 100%;
   position: absolute;
   bottom:0;
+  border-bottom: 5px solid gray;
 }
 .menu 
 {
@@ -147,28 +170,21 @@ h1,h2,h3,h4,h5,h6
   width: 94%;
   float: left;
   display: inline-block;
-  padding: 3%;
+  padding: 0 3% 3% 3%;
 }
 #introduction-section p 
 {
   width: 50%;
   font-size: 1.25em;
-  margin-bottom: 1em;
+  margin:0.5em 0 1em 2em;
+  float: left;
 }
 img#responsive-design 
 {
-  float: right;
-  width: 50%;
-}
-img#contact-us 
-{
   float: left;
+  width: 25%;
 }
-p#contact-us-paragraph 
-{
-  height: 9.375em; /* = 150px*/
-  margin-top: 2em;
-}
+
 #design-col, #build-col, #host-col, #maintain-col 
 {
   width: 25%;
@@ -209,7 +225,7 @@ p#contact-us-paragraph
   margin: 0 auto;
   border-top: 5px solid gray;
   color: white;
-  background: #213e75;
+  background: #1d3747;
   height: 5em;
 }
 #site-info

@@ -1,6 +1,6 @@
     <div id="footer">
           <div id="site-info">
-            <p>designminds. &copy; 2015 | ABN 78 519 847 186</p>
+            <p>Design Minds. &copy; 2015 | ABN 22 778 819 336 </p>
           </div><!-- #site-info -->
     </div><!-- #footer -->
   </div><!-- #wrapper -->
