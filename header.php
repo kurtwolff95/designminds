@@ -32,6 +32,7 @@
   <meta http-equiv="content-type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
   <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
   <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" />
+  <link rel="shortcut icon" href="wp-content/themes/designminds/img/dm_favicon.ico" type="image/x-icon" />
   <script src="//ajax.googleapis.com/ajax/libs/webfont/1.5.6/webfont.js"></script>
   <script>
     WebFont.load({
